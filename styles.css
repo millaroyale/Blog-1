@@ -1,0 +1,192 @@
+.background{
+	position: absolute;
+	background: repeat-x;
+	background-image: url("images/abstract- background-1.jpg"); 
+	position: fixed;
+	width: 100%;
+	top:0;
+	left:0;
+}
+#color-overlay {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 220px;
+   background-color: #009A60;
+   opacity: 0.7;
+   z-index: 2
+}
+.background img{
+    z-index: 1;
+    opacity: 0;
+}
+.logo{
+	margin-left: -90px;
+	position: fixed;
+	margin-top: 60px ;	
+    filter: drop-shadow(8px 8px 5px rgba(0,0,0,0.7) );
+    z-index: 3;
+}
+img{
+	padding: 0;
+	border: 0;
+	margin-top: -30px;
+	margin-left: 120px;
+}
+h2{
+	color:#FAD826;
+	font-size: 70px;
+	font-family: 'Actor', sans-serif;
+	border: 0; 
+    margin-left: 215px;
+    margin-top: -73px;
+    position: fixed;
+    border-bottom: 5px solid #6c4d98;
+    border-radius: 20px;
+}
+h3{
+	margin-left: 230px;
+	font-family: 'Lustria', serif;
+	color: #6c4d98;
+}
+h4{
+	font-size: 12px;
+	color: black;
+	margin-left: 190px;
+	margin-top: -30px;
+}
+.back-to-school{
+	align-content: center;
+	margin-left: 730px;
+	padding-top: 200px;
+	border-bottom: url("images/hair-clip.png");
+}
+#to-school{
+	font-size: 30px;
+	font-family: 'Poppins', sans-serif;
+	color: #4da961;	
+}
+#picture{
+	margin-left: 0;
+	margin-top: -50px;
+	padding-bottom: 30px;
+	filter: opacity(40%);
+	fill: #6c4d98;
+	filter: drop-shadow(16px 16px 10px rgba(0,0,0,0.9) );
+}
+article{
+	padding: 30px;
+}
+.container{
+display: flex;
+justify-content: space-between 20px;
+margin-top: -50px;
+}
+.div-1{
+	display: inline-block;
+	border: 1px solid #4da961;
+	border-radius: 30px;
+	align-content: center;
+	margin-right: 5px; 
+}
+.div-1 img{
+	float:left;
+	margin-left: 0px;
+	margin-top: -20px;
+	margin-bottom: 5px;
+	margin-right: 10px;	
+}
+.div-1 p{
+    color: black;
+    padding: 20px;
+} 
+.div-2{
+	display: inline-block;
+	border: 1px solid #4da961;
+	border-radius: 30px;
+	margin-left: 5px;	
+ }
+.div-2 img{	
+	float: right;
+	margin-top: -20px;
+	margin-left: 10px;
+	margin-bottom: 5px;
+	margin-right: 10px;	
+}
+.div-2 p{
+	color: black;
+	padding: 20px;
+}
+.what-next{
+	display: inline-block;
+	border: none;
+}
+.what-next img{
+	float: left;
+	margin-top: 10px;
+	margin-left: 55px;
+	padding-right: 10px;
+}
+ul{
+	color: black;
+	padding: 20px;
+	margin-right: 200px;
+	margin-top: 20px;
+}
+.dont img{
+	display: inline-block;
+	padding:20px;
+	border:1px solid #4da961;
+	border-radius: 30px;
+	margin-left: 0;
+	margin-right: 40px;
+}
+.dont p{
+	margin-top: 10px;
+	margin-bottom: 10px; 
+}
+.dont hr{
+	background: #4da961;
+	margin-top: 40px;
+	height: 5px;
+
+}
+p ol{
+	margin-left: -250px;
+	display: inline-block;
+}
+nav{
+	text-align: center;
+}
+a {	
+	display: inline-block;
+	padding: 20px;
+	margin: 20px 10px;
+	font-family: 'Actor', sans-serif;
+	text-decoration: none;
+    border: 1px solid #4da961;
+    border-radius: 12px;
+	transition: ease .5s all;
+}
+a.button {
+    background: #4da961;
+    border: 2px solid #4da961;	
+    color: #6c4d98;
+    padding:15px 32px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    text-shadow: -1px -1px 0px rgba(150, 150, 150, 0.91);
+	transition-duration: 0.3s;}
+a:visited {	
+background-color: transparent;
+}
+a:hover{
+    color: white;
+    background-color: #6c4d98;
+	border: 1px solid #4da961;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19)	
+}
+a:active{
+ background-color: #6c4d98;
